@@ -1,8 +1,8 @@
 import type { Metadata } from 'next';
 import './app.css';
 import { StyledComponentsRegistry } from './registry';
-import PrimerProvider from './components/PrimerProvider';
-import Header from './components/Header';
+import PrimerProvider from '@/components/PrimerProvider';
+import AppHeader from '@/components/AppHeader';
 
 export const metadata: Metadata = {
   title: 'Analytics',
@@ -18,7 +18,7 @@ export default function RootLayout({
     <html lang='en'>
       <body>
         <StyledComponentsRegistry>
-          <Header />
+          <AppHeader />
           <PrimerProvider>{children}</PrimerProvider>
         </StyledComponentsRegistry>
       </body>
