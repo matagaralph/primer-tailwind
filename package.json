@@ -9,17 +9,25 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@primer/primitives": "^10.2.0",
+    "@primer/react": "^37.8.0",
+    "@tailwindcss/postcss": "4.0.0-beta.8",
+    "@types/styled-components": "^5.1.34",
+    "deepmerge": "^4.3.1",
+    "next": "15.1.1",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "next": "15.1.1"
+    "react-icons": "^5.4.0",
+    "styled-components": "^6.1.13",
+    "tailwindcss": "4.0.0-beta.8"
   },
   "devDependencies": {
-    "typescript": "^5",
+    "@eslint/eslintrc": "^3",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "eslint": "^9",
     "eslint-config-next": "15.1.1",
-    "@eslint/eslintrc": "^3"
+    "typescript": "^5"
   }
 }
